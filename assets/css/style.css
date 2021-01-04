@@ -1,0 +1,85 @@
+/* =================================================================
+*   Theme name: Zero Course
+*   Theme uri: 
+*   Theme Author: zerosoftBD
+*   Author uri: 
+*   Theme version: 0.0.1
+* ==================================================================*/
+
+/* ==================================================================
+======================= CSS TABLE CONTENT ===========================
+=====================================================================
+*   1. 
+*   2. 
+*   3.
+*   4.
+*   5.
+*   6.
+*   7.
+* ===================================================================*/
+
+/* ==================================================================
+=========================== START GLOBAL AREA CSS ===================
+===================================================================== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:none;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+    font-size:15px;
+    line-height:25px;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+    font-weight: 600;
+}
+a{
+    display: inline-block;
+    text-decoration:none;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.sectionPadding{
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+.sectionTitle{}
+/* ==================================================================
+=========================== END GLOBAL AREA CSS =====================
+===================================================================== */
+
+
+/* ==================================================================
+========================= START HEADER AREA CSS =====================
+===================================================================== */
+.textLogoStyle{
+    font-size: 15px !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+.textLogoStyle span{
+    color:#f1c40f !important;
+}
+.backgroundColor1{
+    background-color:#162044 !important;
+}
+ul li.nav-item a.nav-link{
+    color:#fff !important;
+    font-size:13px !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+/* ==================================================================
+=========================== END HEADER AREA CSS =====================
+===================================================================== */
