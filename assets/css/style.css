@@ -83,3 +83,87 @@ ul li.nav-item a.nav-link{
 /* ==================================================================
 =========================== END HEADER AREA CSS =====================
 ===================================================================== */
+
+
+/* ==================================================================
+========================= START BANNER AREA CSS =====================
+===================================================================== */
+.bannerSection {
+	width: 100%;
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 550px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.bannerSection .bannerContent h1 {
+	color: #ffffff;
+	font-size: 33px;
+	font-weight: 500;
+}
+.bannerSection .bannerContent p {
+	color: #fff;
+	font-size: 18px;
+	max-width: 550px;
+	font-weight: 300;
+	margin-top: 30px;
+	line-height: 23px;
+	margin-bottom: 33px;
+}
+.zeroCoursesButton {
+	display: inline-block;
+	padding: 10px 40px;
+	border: 1px solid #fff;
+	color: #fff !important;
+	font-size: 15px;
+	font-weight: 500;
+	position: relative;
+	z-index: 99999;
+	transition: .5s;
+	border-radius: 26px;
+}
+.zeroCoursesButton:hover{
+    border:1px solid #FE9C37 !important;
+}
+.zeroCoursesButton::after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0px;
+    top:0px;
+    transition:.5s;
+    border: 1px solid transparent;
+    border-radius:26px;
+}
+.zeroCoursesButton::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    border: 1px solid #FE9C37;
+    left:0px;
+    top:0px;
+    z-index:-1;
+    transition:.5s;
+    transform:scale(1, .0);
+    border-radius:26px;
+}
+.zeroCoursesButton:hover::before{
+    background-color:#FE9C37;
+    transform:scale(1, 1);
+}
+.zeroCoursesButton:hover::after{
+    width:calc(100% + 16px);
+    height:calc(100% + 16px);
+    left:-8px;
+    top:-8px;
+    border: 2px solid #FE9C37;
+    opacity: 0;
+}
+/* ==================================================================
+========================= END BANNER AREA CSS =======================
+===================================================================== */
